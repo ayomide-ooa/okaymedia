@@ -1,0 +1,123 @@
+.templates{
+    display: block;
+    margin: 10px auto;
+    padding-top: 50px;
+}
+.contents {
+    width: 30vh!important;
+    height: 30vh!important;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: #001100;
+    font-size: 20px;
+    padding: 5px; 
+    transition: 1s ease;
+    border-radius: 10px;
+}
+.img {
+   height: 100%;
+    width 100%;
+    
+}
+.img:hover {
+    transform: scale(1.1);
+    transition: all .2s linear;
+}
+.samp {
+    background: transparent;
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.img-caption {
+    position: absolute;
+    display: block;
+    background: transparent;
+    padding: 5px;
+    text-align: left;
+}
+.temp-tools {
+    position: absolute;
+    left: 150%;
+    top: 300%;
+}
+.temp-tools em {
+    font-size: 60px;
+    padding: 15px;
+    margin: 2px;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+}
+.temp-tools.tool_xd { background: url(image/tools_icon/adobe_xd.png) }
+.temp-tools.tool_cdr { background: url(image/tools_icon/coreldraw.png) }
+
+
+
+
+.ouract {
+    background: transparent;
+    width: 100%;
+    height: ;
+    top: 1px;
+    display: flex;
+    text-align: center;
+
+}
+.actcont {
+    display: block;
+    height: 100%;
+    width: 25%;
+    margin: 10px;
+    color: #001100;
+    font-size: 20px;
+    padding: 5px; 
+    transition: 1s ease;
+    border-radius: 10px;
+}
+
+.icon{
+    background: transparent;
+    height: 15px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 0px 0px 0px 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 1%;
+}
+.loc {
+    background-image: url(loc.png);
+}
+.mail {
+    background-image: url(mail.png);
+}
+.tel {
+    background-image: url(tel.png);
+}
+.foot-link {
+    display: block;
+}
+.foot-link li {
+    display: inline-block;
+}
+.foot-link li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: medium;
+}
+.foot-link li a:hover {
+    color: #006600;
+}
+.foot {
+    margin: 5px auto;
+    padding: 5px;
+    color: #004300;
+    text-align: center;
+}

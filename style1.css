@@ -1,0 +1,174 @@
+/*OKAYMEDIA PROJECT: MADE BY OKUNOLA OPEYEMI AYOMIDE, copyright 2021-APRIL*/
+
+/********************************DEFAULT PROPERTY*********************************************/
+* {
+    margin:0; padding:0; /* remove margins and paddings on elements */
+    box-sizing: border-box; /* Generate paddings inside elements */
+    -webkit-user-select: auto; /* Chrome, Safari, Android and iOS */
+       -moz-user-select: auto; /* Firefox */
+        -ms-user-select: auto; /* Internet Explorer */
+            user-select: auto; /* Disables text selection */
+}
+@font-face {
+    font-family: wordmark;
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: body-font;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: creative;
+    src: url(fonts/LearningCurve_OT.ttf);
+}
+@font-face {
+    font-family: cabin-con;
+    src: url(fonts/Cabin_Condensed-Regular.ttf);
+}
+@font-face {
+    font-family: cabin;
+    src: url(fonts/Cabin-Regular.ttf);
+}
+html {
+    background: #fff;
+    color: #111;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 0 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    transition: 2s ease-in;
+    font-family: body-font!important;
+}
+/*********FRONT COVER**********/
+.front-cover {
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 80px;
+    padding-top 80px;
+    margin: 5px auto;
+    text-align: center;
+}
+.comp-name {
+    font-family: wordmark;
+    letter-spacing: 20px;
+}
+.front-cover h4 {
+    font-family: creative!important;
+    font-size: xx-large;
+}
+.slogan {
+    color: grey;
+    padding-top: 50px;
+    letter-spacing: normal;
+    animation: move 10s infinite;
+    font-family: cabin-con;
+}
+@keyframes move {
+    50% {
+        padding-top: 80px;
+        letter-spacing: 8px;
+        font-size: 3rem;
+}
+}
+.slogan strong {
+    color: #00aa00;
+    word-spacing: 20rem;
+}
+.accounts li {
+    display: inline;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: 25px;
+}
+a.icons {
+    font-size: 70px;
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80%;
+}
+.facebook { background-image: url(icons/facebook.svg); }
+.instagram { background-image: url(icons/instagram.svg); }
+.whatsapp { background-image: url(icons/whatsapp.svg); }
+.linkedIn { background-image: url(icons/linkedin.svg); }
+/*********FRONT COVER END**********/
+/*********HEADER**********/
+header {
+    background: #fff;
+    width: 100%;
+    height: 45px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+header ul {
+    float: right;
+    padding: 5px;
+}
+header h2 {
+    float: left;
+    font: 25px wordmark;
+    padding: 2px 10px;
+    letter-spacing: 5px;
+}
+header ul li {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font: 16px cabin;
+}
+header li a {
+    text-decoration: none;
+    color: #111;
+    text-transform: uppercase;
+}
+header li a:hover {
+    color: #00A859;
+}
+/*********HEADER END**********/
+/*********MAIN**********/
+main {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .90);
+    margin: 5px auto;
+
+}
+section{
+    width: 100%;
+    padding: 50px 10px 10px 10px!important;
+    display: block;
+    transition: 3s ease-in;
+}
+hr {
+    background: #dcdcdc;
+    height: 1px;
+    width: 100%;
+    border-color: #dedede;
+    border-radius: 100%;
+    margin: 15px auto;
+}
+a {
+    text-decoration: none!important;
+    font-size: 18px;
+}
+footer {
+    background: #001f01;
+    height: 280px;
+    color: #fffff0;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*OKAYMEDIA PROJECT: MADE BY OKUNOLA OPEYEMI AYOMIDE, copyright 2021-APRIL******
+** Continued on August 16, 2022 *****
+
+*/
