@@ -15,6 +15,7 @@ html{
     tap-highlight-color: transparent;
     -moz-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
 }
 
 body {
